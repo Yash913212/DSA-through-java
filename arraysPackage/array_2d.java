@@ -2,10 +2,18 @@ package arraysPackage;
 
 public class array_2d {
     public static void main(String[] args) {
-        int  [][] arr = {{1,2} , {3,4}};
-        for(int i=0;i<2;i++){
-            for(int j=0;j<2;j++){
-                System.out.println(arr[i][j]);
+        int  [][] matt = {{1,2} , {3,4} , {5,6}};
+        // arr[0][0] = 10;
+
+        int r = matt.length;
+        int c = matt[0].length;
+        System.out.println(r);
+        System.out.println(c);
+
+
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+                System.out.println(matt[i][j]);
             }
         }
     }
