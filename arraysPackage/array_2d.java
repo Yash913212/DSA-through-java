@@ -7,14 +7,16 @@ public class array_2d {
 
         int r = matt.length;
         int c = matt[0].length;
-        System.out.println(r);
-        System.out.println(c);
+//        System.out.println(r);
+//        System.out.println(c);
 
-
-        for(int i=0;i<r;i++){
-            for(int j=0;j<c;j++){
-                System.out.println(matt[i][j]);
+            //for printing row
+//            for(int j=0;j<c;j++){
+//                System.out.println(matt[0][j]);
+//            }
+            for(int j=0;j<r;j++){
+                System.out.println(matt[j][1]);
             }
-        }
+
     }
 }
